@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hermione's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Loading -->
+  <div class="loading-screen">
+    <div class="loader"></div>
+  </div>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <img src="./assets/images/logo.png" alt="Logo" class="avatar-logo">
+
+        <div class="info-content">
+          <h1 class="name" title="Hermione See">Hermione See</h1>
+
+          <p class="title">Computer Science in Interactive </br> Media and Game Development</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Info</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="button-box">
+
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:hermione.ssee@gmail.com" class="contact-link">hermione.ssee@gmail.com</a>
+              </div>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="button-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="contact-info">
+                <p class="contact-title">LinkedIn</p>
+
+                <a href="https://www.linkedin.com/in/hermione-see/" class="contact-link">www.linkedin.com/in/hermione-see</a>
+              </div>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link="about">About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
+          </li>
+          
+          </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello! My name is Hermione, the same pronunciation and spelling as Hermione Granger in Harry Potter! I am currently a
+            year 3 student from Singapore Institute of Technology, studying Computer Science in Interactive Media and Game Development!
+          </p>
+
+          <p>
+            I’ve always been fascinated by how intuitive and engaging interfaces can enhance user experiences in games and digital media.
+            This curiosity has grown into a broader interest in combining design and technology to create interactive and immersive experiences
+            through my studies in Digital Design and Development and now in Computer Science in Interactive Media and Game Development.
+          </p>
+
+          <p>
+            I’ve always been fascinated by how intuitive and engaging interfaces can enhance user experiences in games and digital media.
+            This curiosity has grown into a broader interest in combining design and technology to create interactive and immersive experiences
+            through my studies in Digital Design and Development and now in Computer Science in Interactive Media and Game Development.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/game.png" alt="Gaming icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Gaming</h4>
+
+                <p class="service-item-text">
+                  Farming sims and JRPGs are my comfort games! Some games I’m currently playing are STORY OF SEASONS: Grand Bazaar and Persona 3 Portable.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/art.png" alt="Visual Arts icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Visual Arts</h4>
+
+                <p class="service-item-text">
+                  I enjoy experimenting with all kinds of visual art, from doodles to digital pieces — it’s my favorite way to unwind and express myself.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/journal.png" alt="Journalling icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Journalling</h4>
+
+                <p class="service-item-text">
+                  I enjoy journalling and designing planners that combine organization with creativity, making everyday planning both functional and fun.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cat.png" alt="Cat icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cats</h4>
+
+                <p class="service-item-text">
+                  I’m a huge cat lover — my dream is to have eight of them someday (a perfectly chaotic household).
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <div class="header-wrapper">
+
+            <h2 class="h2 article-title">Resume</h2>
+
+            <div style="float: right;">
+            <a href="./pdf/Resume.pdf" class="view-pdf-btn">
+              <ion-icon name="document-text-outline"></ion-icon>
+              View PDF
+            </a>
+            </div>
+
+          </div>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Computer Science in Interactive Media and Game Development</h4>
+              
+              <p class="timeline-text">Singapore Institude of Technology (SIT) | DigiPen Institute of Technology Singapore</p>
+
+              <span>AUG 2023 — Present</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Diploma in Digital Design and Development</h4>
+
+              <p class="timeline-text">Republic Polytechnic (RP)</p>
+
+              <span>Apr 2020 — Feb 2023</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bag-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship (Full-time)</h4>
+
+              <span>Sep 2022 — Feb 2023</span>
+
+              <p class="timeline-text">
+                Collaborated on Oracle APEX automation to streamline workflows, coordinated client meetings for project milestones,
+                and strengthened teamwork skills, enhancing efficiency, project alignment, and professional collaboration within the
+                Advanced Customer Service (ACS) Team.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="heart-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Co-Curricular Activities</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Advisor | Art.titude Interest Group (RP)</h4>
+
+              <span>Jan 2022 — Jul 2022</span>
+
+              <p class="timeline-text">
+                I assisted fellow EXCO juniors with newly assigned tasks whenever required, providing support to ensure smooth completion.
+                By participating in weekly sessions, I guided them in understanding and performing their roles effectively, enhancing team
+                coordination and skill development.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Vice President | Art.titude Interest Group (RP)</h4>
+
+              <span>Jan 2021 — Jan 2022</span>
+
+              <p class="timeline-text">
+                I managed administrative tasks such as attendance, cast lists, and documentation, ensuring smooth club operations. I
+                encouraged and guided members in providing feedback and self-reflection on their art, fostering personal growth and
+                creative development. Additionally, I planned weekly sessions and organized both physical and virtual events, boosting
+                member engagement and participation in club activities.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>UI/UX Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>UI/UX Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Game Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Game Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="projects/murphysdive.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/murphys-dive.png" alt="murphysdive" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Murphy's Dive</h3>
+
+                <p class="project-category">Game Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game design">
+              <a href="projects/onewayout.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/escape-room.png" alt="escaperoom" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">One Way Out</h3>
+
+                <p class="project-category">Game design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game design">
+              <a href="projects/onemillion.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/one-million-cover.png" alt="onemillioncampaign" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">One Million Campaign</h3>
+
+                <p class="project-category">Game design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game design">
+              <a href="projects/designintent.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/design-intent.png" alt="design-intent" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">My Design Intent</h3>
+
+                <p class="project-category">Game design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="game development">
+              <a href="projects/purrsuitofhome.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/purrsuit-menu.png" alt="purrsuitofhome" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Purr-suit of Home</h3>
+
+                <p class="project-category">Game development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ui/ux design">
+              <a href="projects/beautywebsite.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/beautywebsite.PNG" alt="beautywebsite" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Beauty Design Website</h3>
+
+                <p class="project-category">UI/UX Design</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
